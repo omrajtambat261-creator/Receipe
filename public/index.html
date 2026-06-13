@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ProManage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: { sans: ['Inter', 'sans-serif'] },
+            colors: {
+              brand: {
+                50:  '#eef2ff',
+                100: '#e0e7ff',
+                200: '#c7d2fe',
+                400: '#818cf8',
+                500: '#6366f1',
+                600: '#4f46e5',
+                700: '#4338ca',
+                800: '#3730a3',
+                900: '#312e81',
+              },
+              accent: {
+                400: '#fb923c',
+                500: '#f97316',
+                600: '#ea580c',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      * { font-family: 'Inter', sans-serif; }
+      body { background: #f8fafc; }
+      .toast-custom { border-radius: 10px !important; font-family: 'Inter', sans-serif !important; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
